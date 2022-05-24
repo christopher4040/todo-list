@@ -11,7 +11,7 @@ function Todo({todo,index,remove, toggleCheckbox}){
   return (
   <div className="list-group py-1">
     <li className="todo d-flex list-group-item">
-      <input class="form-check-input" type="checkbox" checked={todo.isCompleted} onChange={handleCheckbox}/>
+      <input className="form-check-input" type="checkbox" checked={todo.isCompleted} onChange={handleCheckbox}/>
       <span className={todo.isCompleted ? "text-decoration-line-through ms-2" : "ms-2"}>{todo.text}</span>
       <div className="deleteButton">
         <svg className="ms-auto" onClick={handle} xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
