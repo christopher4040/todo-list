@@ -6,7 +6,7 @@ This is Todo list website were you can create, check and delete items from the l
 ## Roadmap
 - Store the data into a database.
 - Add categories
-- 
+
 ## License
 MIT License
 
